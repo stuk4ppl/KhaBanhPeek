@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="sdk\Memory\memory.cpp" />
+    <ClCompile Include="sdk\Tool\Tool.cpp" />
+    <ClCompile Include="src\bot\Aimbot.cpp" />
+    <ClCompile Include="src\bot\TriggerBot.cpp" />
+    <ClCompile Include="src\misc\Misc.cpp" />
+    <ClCompile Include="src\schemas\LocalPlayer.cpp" />
+    <ClCompile Include="src\schemas\Player.cpp" />
+    <ClCompile Include="src\schemas\PlayerAction.cpp" />
+    <ClCompile Include="src\visual\Glow.cpp" />
+    <ClCompile Include="src\Entry.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sdk\Memory\memory.h" />
+    <ClInclude Include="sdk\Tool\Tool.h" />
+    <ClInclude Include="include\bot\Aimbot.h" />
+    <ClInclude Include="include\bot\TriggerBot.h" />
+    <ClInclude Include="include\misc\Misc.h" />
+    <ClInclude Include="include\schemas\LocalPlayer.h" />
+    <ClInclude Include="include\schemas\Player.h" />
+    <ClInclude Include="include\schemas\PlayerAction.h" />
+    <ClInclude Include="include\shared\Color.h" />
+    <ClInclude Include="include\shared\include.h" />
+    <ClInclude Include="include\shared\Math.h" />
+    <ClInclude Include="include\shared\UseOffset.h" />
+    <ClInclude Include="include\visual\Glow.h" />
+    <ClInclude Include="sdk\A2xdump\output\animationsystem_dll.hpp" />
+    <ClInclude Include="sdk\A2xdump\output\buttons.hpp" />
+    <ClInclude Include="sdk\A2xdump\output\client_dll.hpp" />
+    <ClInclude Include="sdk\A2xdump\output\engine2_dll.hpp" />
+    <ClInclude Include="sdk\A2xdump\output\host_dll.hpp" />
+    <ClInclude Include="sdk\A2xdump\output\interfaces.hpp" />
+    <ClInclude Include="sdk\A2xdump\output\materialsystem2_dll.hpp" />
+    <ClInclude Include="sdk\A2xdump\output\networksystem_dll.hpp" />
+    <ClInclude Include="sdk\A2xdump\output\offsets.hpp" />
+    <ClInclude Include="sdk\A2xdump\output\panorama_dll.hpp" />
+    <ClInclude Include="sdk\A2xdump\output\particles_dll.hpp" />
+    <ClInclude Include="sdk\A2xdump\output\pulse_system_dll.hpp" />
+    <ClInclude Include="sdk\A2xdump\output\rendersystemdx11_dll.hpp" />
+    <ClInclude Include="sdk\A2xdump\output\resourcesystem_dll.hpp" />
+    <ClInclude Include="sdk\A2xdump\output\scenesystem_dll.hpp" />
+    <ClInclude Include="sdk\A2xdump\output\schemasystem_dll.hpp" />
+    <ClInclude Include="sdk\A2xdump\output\server_dll.hpp" />
+    <ClInclude Include="sdk\A2xdump\output\soundsystem_dll.hpp" />
+    <ClInclude Include="sdk\A2xdump\output\vphysics2_dll.hpp" />
+    <ClInclude Include="sdk\A2xdump\output\worldrenderer_dll.hpp" />
+  </ItemGroup>
+</Project>
