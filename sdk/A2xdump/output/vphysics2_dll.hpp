@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-10-20 16:30:59.112920300 UTC
+// 2024-10-21 17:12:59.471944100 UTC
 
 #pragma once
 
@@ -164,7 +164,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nExtraPressureIterations = 0x4E5; // 
                 constexpr std::ptrdiff_t m_nExtraGoalIterations = 0x4E6; // 
                 constexpr std::ptrdiff_t m_nExtraIterations = 0x4E7; // 
-                constexpr std::ptrdiff_t m_SDFRigids = 0x4E8; // 
+                constexpr std::ptrdiff_t m_SDFRigids = 0x4E8; // CUtlVector<FeSDFRigid_t>
                 constexpr std::ptrdiff_t m_BoxRigids = 0x500; // 
                 constexpr std::ptrdiff_t m_DynNodeVertexSet = 0x518; // 
                 constexpr std::ptrdiff_t m_VertexSetNames = 0x530; // 

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-10-20 16:30:59.112920300 UTC
+// 2024-10-21 17:12:59.471944100 UTC
 
 #pragma once
 
@@ -945,7 +945,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nFirstSourcePoint = 0x1CC; // 
                 constexpr std::ptrdiff_t m_bSetOrientation = 0x1D0; // 
                 constexpr std::ptrdiff_t m_nOrientationMode = 0x1D4; // 
-                constexpr std::ptrdiff_t m_nSetParent = 0x1D8; // 
+                constexpr std::ptrdiff_t m_nSetParent = 0x1D8; // ParticleParentSetMode_t
             }
             // Parent: CParticleFunctionOperator
             // Field count: 8
@@ -2796,7 +2796,7 @@ namespace cs2_dumper {
             namespace CParticleSystemDefinition {
                 constexpr std::ptrdiff_t m_nBehaviorVersion = 0x8; // 
                 constexpr std::ptrdiff_t m_PreEmissionOperators = 0x10; // CUtlVector<CParticleFunctionPreEmission*>
-                constexpr std::ptrdiff_t m_Emitters = 0x28; // 
+                constexpr std::ptrdiff_t m_Emitters = 0x28; // CUtlVector<CParticleFunctionEmitter*>
                 constexpr std::ptrdiff_t m_Initializers = 0x40; // CUtlVector<CParticleFunctionInitializer*>
                 constexpr std::ptrdiff_t m_Operators = 0x58; // 
                 constexpr std::ptrdiff_t m_ForceGenerators = 0x70; // 
@@ -3096,7 +3096,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nVertexCountKb = 0x630; // 
                 constexpr std::ptrdiff_t m_nIndexCountKb = 0x634; // 
                 constexpr std::ptrdiff_t m_nScaleCP = 0x638; // 
-                constexpr std::ptrdiff_t m_MaterialVars = 0x640; // 
+                constexpr std::ptrdiff_t m_MaterialVars = 0x640; // CUtlVector<MaterialVariable_t>
                 constexpr std::ptrdiff_t m_hMaterial = 0x670; // 
             }
             // Parent: CParticleFunctionOperator
@@ -3426,7 +3426,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bLOS = 0x1F4; // 
                 constexpr std::ptrdiff_t m_CollisionGroupName = 0x1F5; // 
                 constexpr std::ptrdiff_t m_nTraceSet = 0x278; // 
-                constexpr std::ptrdiff_t m_nSetParent = 0x27C; // 
+                constexpr std::ptrdiff_t m_nSetParent = 0x27C; // ParticleParentSetMode_t
             }
             // Parent: CParticleFunctionPreEmission
             // Field count: 4
@@ -4937,7 +4937,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flMaterialSelection = 0x238; // 
                 constexpr std::ptrdiff_t m_flAnimationTimeScale = 0x398; // 
                 constexpr std::ptrdiff_t m_bOrientToNormal = 0x39C; // 
-                constexpr std::ptrdiff_t m_MaterialVars = 0x3A0; // 
+                constexpr std::ptrdiff_t m_MaterialVars = 0x3A0; // CUtlVector<MaterialVariable_t>
                 constexpr std::ptrdiff_t m_flRadiusScale = 0x3B8; // 
                 constexpr std::ptrdiff_t m_flAlphaScale = 0x518; // 
                 constexpr std::ptrdiff_t m_flRollScale = 0x678; // 
@@ -5233,7 +5233,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bRenderSpecular = 0x1249; // 
                 constexpr std::ptrdiff_t m_lightCookie = 0x1250; // 
                 constexpr std::ptrdiff_t m_nPriority = 0x1258; // 
-                constexpr std::ptrdiff_t m_nFogLightingMode = 0x125C; // ParticleLightFogLightingMode_t
+                constexpr std::ptrdiff_t m_nFogLightingMode = 0x125C; // 
                 constexpr std::ptrdiff_t m_flFogContribution = 0x1260; // 
                 constexpr std::ptrdiff_t m_nCapsuleLightBehavior = 0x13C0; // ParticleLightBehaviorChoiceList_t
                 constexpr std::ptrdiff_t m_flCapsuleLength = 0x13C4; // 
@@ -5289,7 +5289,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nCP1 = 0x1C8; // 
                 constexpr std::ptrdiff_t m_vecCP1Pos = 0x1CC; // 
                 constexpr std::ptrdiff_t m_bUseAvgParticlePos = 0x1D8; // 
-                constexpr std::ptrdiff_t m_nSetParent = 0x1DC; // 
+                constexpr std::ptrdiff_t m_nSetParent = 0x1DC; // ParticleParentSetMode_t
             }
             // Parent: CParticleFunctionPreEmission
             // Field count: 7
@@ -6144,7 +6144,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_hOverrideMaterial = 0x1978; // 
                 constexpr std::ptrdiff_t m_bOverrideTranslucentMaterials = 0x1980; // 
                 constexpr std::ptrdiff_t m_nSkin = 0x1988; // 
-                constexpr std::ptrdiff_t m_MaterialVars = 0x1AE8; // 
+                constexpr std::ptrdiff_t m_MaterialVars = 0x1AE8; // CUtlVector<MaterialVariable_t>
                 constexpr std::ptrdiff_t m_flManualModelSelection = 0x1B00; // 
                 constexpr std::ptrdiff_t m_modelInput = 0x1C60; // 
                 constexpr std::ptrdiff_t m_nLOD = 0x1CC0; // 
@@ -6540,7 +6540,7 @@ namespace cs2_dumper {
             namespace C_OP_RenderMaterialProxy {
                 constexpr std::ptrdiff_t m_nMaterialControlPoint = 0x210; // 
                 constexpr std::ptrdiff_t m_nProxyType = 0x214; // 
-                constexpr std::ptrdiff_t m_MaterialVars = 0x218; // 
+                constexpr std::ptrdiff_t m_MaterialVars = 0x218; // CUtlVector<MaterialVariable_t>
                 constexpr std::ptrdiff_t m_hOverrideMaterial = 0x230; // 
                 constexpr std::ptrdiff_t m_flMaterialOverrideEnabled = 0x238; // 
                 constexpr std::ptrdiff_t m_vecColorScale = 0x398; // 

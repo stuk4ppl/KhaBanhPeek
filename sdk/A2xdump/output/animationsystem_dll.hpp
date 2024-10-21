@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-10-20 16:30:59.112920300 UTC
+// 2024-10-21 17:12:59.471944100 UTC
 
 #pragma once
 
@@ -939,7 +939,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace COrientationWarpUpdateNode {
                 constexpr std::ptrdiff_t m_hFacingPositionParameter = 0x6C; // 
-                constexpr std::ptrdiff_t m_turnDamping = 0x70; // CAnimInputDamping
+                constexpr std::ptrdiff_t m_turnDamping = 0x70; // 
             }
             // Parent: None
             // Field count: 7
@@ -2006,7 +2006,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flInnerRadius = 0x70; // 
                 constexpr std::ptrdiff_t m_flMaxScale = 0x74; // 
                 constexpr std::ptrdiff_t m_flMinScale = 0x78; // 
-                constexpr std::ptrdiff_t m_damping = 0x80; // CAnimInputDamping
+                constexpr std::ptrdiff_t m_damping = 0x80; // 
             }
             // Parent: CNmBoolValueNode__CDefinition
             // Field count: 3
@@ -2751,7 +2751,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_tags = 0x78; // 
                 constexpr std::ptrdiff_t m_paramSpans = 0x90; // 
                 constexpr std::ptrdiff_t m_nodeItemIndices = 0xA8; // 
-                constexpr std::ptrdiff_t m_damping = 0xC0; // CAnimInputDamping
+                constexpr std::ptrdiff_t m_damping = 0xC0; // 
                 constexpr std::ptrdiff_t m_blendSourceX = 0xD0; // 
                 constexpr std::ptrdiff_t m_paramX = 0xD4; // 
                 constexpr std::ptrdiff_t m_blendSourceY = 0xD8; // 
@@ -2798,7 +2798,7 @@ namespace cs2_dumper {
             namespace CLeanMatrixUpdateNode {
                 constexpr std::ptrdiff_t m_frameCorners = 0x5C; // 
                 constexpr std::ptrdiff_t m_poses = 0x80; // 
-                constexpr std::ptrdiff_t m_damping = 0xA8; // CAnimInputDamping
+                constexpr std::ptrdiff_t m_damping = 0xA8; // 
                 constexpr std::ptrdiff_t m_blendSource = 0xB8; // 
                 constexpr std::ptrdiff_t m_paramIndex = 0xBC; // 
                 constexpr std::ptrdiff_t m_verticalAxis = 0xC0; // 
@@ -3074,7 +3074,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nElementMask = 0xC8; // 
                 constexpr std::ptrdiff_t m_vectorCompressor = 0xF8; // CUtlVector<CCompressor<Vector>*>
                 constexpr std::ptrdiff_t m_quaternionCompressor = 0x110; // CUtlVector<CCompressor<QuaternionStorage>*>
-                constexpr std::ptrdiff_t m_intCompressor = 0x128; // 
+                constexpr std::ptrdiff_t m_intCompressor = 0x128; // CUtlVector<CCompressor<int32>*>
                 constexpr std::ptrdiff_t m_boolCompressor = 0x140; // 
                 constexpr std::ptrdiff_t m_colorCompressor = 0x158; // 
                 constexpr std::ptrdiff_t m_vector2DCompressor = 0x170; // 
@@ -3221,8 +3221,8 @@ namespace cs2_dumper {
             namespace CFootLockUpdateNode {
                 constexpr std::ptrdiff_t m_opFixedSettings = 0x68; // 
                 constexpr std::ptrdiff_t m_footSettings = 0xD0; // 
-                constexpr std::ptrdiff_t m_hipShiftDamping = 0xE8; // CAnimInputDamping
-                constexpr std::ptrdiff_t m_rootHeightDamping = 0xF8; // CAnimInputDamping
+                constexpr std::ptrdiff_t m_hipShiftDamping = 0xE8; // 
+                constexpr std::ptrdiff_t m_rootHeightDamping = 0xF8; // 
                 constexpr std::ptrdiff_t m_flStrideCurveScale = 0x108; // 
                 constexpr std::ptrdiff_t m_flStrideCurveLimitScale = 0x10C; // 
                 constexpr std::ptrdiff_t m_flStepHeightIncreaseScale = 0x110; // 
@@ -3294,7 +3294,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace FootLockPoseOpFixedSettings {
                 constexpr std::ptrdiff_t m_footInfo = 0x0; // 
-                constexpr std::ptrdiff_t m_hipDampingSettings = 0x18; // CAnimInputDamping
+                constexpr std::ptrdiff_t m_hipDampingSettings = 0x18; // 
                 constexpr std::ptrdiff_t m_nHipBoneIndex = 0x28; // 
                 constexpr std::ptrdiff_t m_ikSolverType = 0x2C; // 
                 constexpr std::ptrdiff_t m_bApplyTilt = 0x30; // 
@@ -3482,7 +3482,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CDampedValueUpdateItem {
-                constexpr std::ptrdiff_t m_damping = 0x0; // CAnimInputDamping
+                constexpr std::ptrdiff_t m_damping = 0x0; // 
                 constexpr std::ptrdiff_t m_hParamIn = 0x18; // 
                 constexpr std::ptrdiff_t m_hParamOut = 0x1A; // 
             }
@@ -3510,7 +3510,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_targetValues = 0x90; // 
                 constexpr std::ptrdiff_t m_blendValueSource = 0xAC; // 
                 constexpr std::ptrdiff_t m_paramIndex = 0xB0; // 
-                constexpr std::ptrdiff_t m_damping = 0xB8; // CAnimInputDamping
+                constexpr std::ptrdiff_t m_damping = 0xB8; // 
                 constexpr std::ptrdiff_t m_blendKeyType = 0xC8; // 
                 constexpr std::ptrdiff_t m_bLockBlendOnReset = 0xCC; // 
                 constexpr std::ptrdiff_t m_bSyncCycles = 0xCD; // 
@@ -3909,7 +3909,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace CMovementComponentUpdater {
                 constexpr std::ptrdiff_t m_motors = 0x30; // 
-                constexpr std::ptrdiff_t m_facingDamping = 0x48; // CAnimInputDamping
+                constexpr std::ptrdiff_t m_facingDamping = 0x48; // 
                 constexpr std::ptrdiff_t m_nDefaultMotorIndex = 0x60; // 
                 constexpr std::ptrdiff_t m_flDefaultRunSpeed = 0x64; // 
                 constexpr std::ptrdiff_t m_bMoveVarsDisabled = 0x68; // 
@@ -4640,7 +4640,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bGoalAssist = 0x109; // 
                 constexpr std::ptrdiff_t m_flGoalAssistDistance = 0x10C; // 
                 constexpr std::ptrdiff_t m_flGoalAssistTolerance = 0x110; // 
-                constexpr std::ptrdiff_t m_distanceScale_Damping = 0x118; // CAnimInputDamping
+                constexpr std::ptrdiff_t m_distanceScale_Damping = 0x118; // 
                 constexpr std::ptrdiff_t m_flDistanceScale_OuterRadius = 0x128; // 
                 constexpr std::ptrdiff_t m_flDistanceScale_InnerRadius = 0x12C; // 
                 constexpr std::ptrdiff_t m_flDistanceScale_MaxScale = 0x130; // 
@@ -5011,7 +5011,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace LookAtOpFixedSettings_t {
                 constexpr std::ptrdiff_t m_attachment = 0x0; // 
-                constexpr std::ptrdiff_t m_damping = 0x80; // CAnimInputDamping
+                constexpr std::ptrdiff_t m_damping = 0x80; // 
                 constexpr std::ptrdiff_t m_bones = 0x90; // 
                 constexpr std::ptrdiff_t m_flYawLimit = 0xA8; // 
                 constexpr std::ptrdiff_t m_flPitchLimit = 0xAC; // 
@@ -5359,7 +5359,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CMoverUpdateNode {
-                constexpr std::ptrdiff_t m_damping = 0x70; // CAnimInputDamping
+                constexpr std::ptrdiff_t m_damping = 0x70; // 
                 constexpr std::ptrdiff_t m_facingTarget = 0x80; // 
                 constexpr std::ptrdiff_t m_hMoveVecParam = 0x84; // 
                 constexpr std::ptrdiff_t m_hMoveHeadingParam = 0x86; // 
@@ -5735,7 +5735,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace CDirectionalBlendUpdateNode {
                 constexpr std::ptrdiff_t m_hSequences = 0x5C; // 
-                constexpr std::ptrdiff_t m_damping = 0x80; // CAnimInputDamping
+                constexpr std::ptrdiff_t m_damping = 0x80; // 
                 constexpr std::ptrdiff_t m_blendValueSource = 0x90; // 
                 constexpr std::ptrdiff_t m_paramIndex = 0x94; // 
                 constexpr std::ptrdiff_t m_playbackSpeed = 0x98; // 
@@ -5887,7 +5887,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flMinAngle = 0x78; // 
                 constexpr std::ptrdiff_t m_flMaxAngle = 0x7C; // 
                 constexpr std::ptrdiff_t m_flSpeedScaleBlending = 0x80; // 
-                constexpr std::ptrdiff_t m_turnDamping = 0x88; // CAnimInputDamping
+                constexpr std::ptrdiff_t m_turnDamping = 0x88; // 
                 constexpr std::ptrdiff_t m_facingTarget = 0x98; // 
                 constexpr std::ptrdiff_t m_hParam = 0x9C; // 
                 constexpr std::ptrdiff_t m_flTurnToFaceOffset = 0xA0; // 
@@ -5900,7 +5900,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace AimMatrixOpFixedSettings_t {
                 constexpr std::ptrdiff_t m_attachment = 0x0; // 
-                constexpr std::ptrdiff_t m_damping = 0x80; // CAnimInputDamping
+                constexpr std::ptrdiff_t m_damping = 0x80; // 
                 constexpr std::ptrdiff_t m_poseCacheHandles = 0x90; // 
                 constexpr std::ptrdiff_t m_eBlendMode = 0xB8; // 
                 constexpr std::ptrdiff_t m_flMaxYawAngle = 0xBC; // 
@@ -6233,7 +6233,7 @@ namespace cs2_dumper {
             namespace CMoodVData {
                 constexpr std::ptrdiff_t m_sModelName = 0x0; // 
                 constexpr std::ptrdiff_t m_nMoodType = 0xE0; // 
-                constexpr std::ptrdiff_t m_animationLayers = 0xE8; // CUtlVector<MoodAnimationLayer_t>
+                constexpr std::ptrdiff_t m_animationLayers = 0xE8; // 
             }
             // Parent: CModelConfigElement
             // Field count: 14

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-10-20 16:30:59.112920300 UTC
+// 2024-10-21 17:12:59.471944100 UTC
 
 #pragma once
 
@@ -768,7 +768,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CSosSoundEventGroupListSchema {
-                constexpr std::ptrdiff_t m_groupList = 0x0; // CUtlVector<CSosSoundEventGroupSchema>
+                constexpr std::ptrdiff_t m_groupList = 0x0; // 
             }
             // Parent: CSosGroupBranchPattern
             // Field count: 5
