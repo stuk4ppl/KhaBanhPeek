@@ -7,6 +7,10 @@ void Glow::Render() {
     
     LocalPlayer* Localplayer = LocalPlayer::GetLocalPlayer();
 
+    if (!Localplayer) {
+        return;
+    }
+
     if (Localplayer->isPlayerConnected()) {
         for (short i = 0; i < Player::GetMaxPlayer(); i++) {
             Player* player = Player::GetPlayer(i);

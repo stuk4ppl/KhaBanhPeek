@@ -12,6 +12,10 @@ Misc* Misc::GetMiscHandle() {
 void Misc::RadarHack() {
     LocalPlayer* Localplayer = LocalPlayer::GetLocalPlayer();
 
+    if (!Localplayer) {
+        return;
+    }
+
     for (short i = 0; i < Player::GetMaxPlayer(); i++) {
         Player* player = Player::GetPlayer(i);
 
@@ -36,16 +40,29 @@ void Misc::RadarHack() {
 void Misc::AntiFlash() {
     Misc* misc = Misc::GetMiscHandle();
     uintptr_t* FlashDuration = misc->GetFlashDuration();
+
+    if (!FlashDuration) {
+        return;
+    }
     *FlashDuration = 0;
 }
 
 uintptr_t* Misc::GetFlashDuration() {
     LocalPlayer* Localplayer = LocalPlayer::GetLocalPlayer();
+
+    if (!Localplayer) {
+        return nullptr;
+    }
     return (uintptr_t*)((uintptr_t)Localplayer + Offsets::FlashDuration);
 }
 
 void Misc::BunnyHop() {
     PlayerAction* JumpInstance = PlayerAction::Jump();
+
+    if (!JumpInstance) {
+        return;
+    }
+
     static bool jump = false;
     if (GetAsyncKeyState(VK_SPACE)) {
         if (!jump) {

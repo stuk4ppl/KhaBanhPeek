@@ -24,6 +24,10 @@ Vec2 Aimbot::WorldToScreenEnemy(LocalPlayer* Local, Player* Target) {
 void Aimbot::RunAimbot() {
     LocalPlayer* Localplayer = LocalPlayer::GetLocalPlayer();
 
+    if (!Localplayer) {
+        return;
+    }
+
     for (int i = 0; i < Player::GetMaxPlayer(); i++) {
         Player* CurrentPlayer = Player::GetPlayer(i);
 

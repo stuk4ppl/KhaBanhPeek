@@ -15,6 +15,10 @@ Player* TriggerBot::GetEntityPawnTargetByCrossHair() {
 Player* TriggerBot::CheckEgilibity() {
     Player* PlayerPawn = GetEntityPawnTargetByCrossHair();
     LocalPlayer* Localplayer = LocalPlayer::GetLocalPlayer();
+
+    if (!Localplayer) {
+        return nullptr;
+    }
     if (PlayerPawn) {
         if ((strcmp(Localplayer->GetWeaponNameOnHand(), "weapon_awp") == 0) ||
             (strcmp(Localplayer->GetWeaponNameOnHand(), "weapon_ssg08") == 0) ||
